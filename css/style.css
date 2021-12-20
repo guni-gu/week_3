@@ -1,0 +1,84 @@
+body {
+    font-size: 16px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: #2e2c2c;
+    background-color: #E6E6FA;
+}
+
+
+/** HEADER **/
+
+#header-nav {
+    background-color:#f0c2d1;
+    border-radius: 0;
+    border: 0;
+}
+
+#header-nav button {
+    margin-top: 22px;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #E0FFFF;
+}
+
+.navbar-collapse {
+    border-top: 0;
+}
+
+.navbar-brand, .navbar-nav li a {
+    line-height: 76px;
+    height: 76px;
+    padding-top: 0;
+}
+
+.navbar-brand h1 {
+    color: #313031;
+    font-weight: bolder;
+    font-size: 1.8em;
+}
+
+#nav-list {
+    background-color:#E0FFFF;
+}
+
+#nav-list a {
+    font-weight: bolder;
+    color: #252627;
+}
+
+#nav-list a:hover {
+     background-color: #E6E6FA;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #313031;;
+}
+
+
+
+/** Page**/
+
+#main-content {
+    width: 92%;
+    margin-bottom: 40px;
+}
+
+#main-content h2 {
+    font-size: 2.9em;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#main-content h3 {
+    font-size: 1.6em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+#main-section {
+    background-color:#FFF0F5;
+    padding: 30px;
+}
+
